@@ -59,7 +59,7 @@ This section explains some pre-constructed HTML snippets which I have found very
 This segment explains a few CSS classes I use in almost every project. 
 
 | Example | Explanation |
-| -- | -- | -- |
+| -- | -- |
 | `.non-select` | Makes the element non-selectable in [every modern browser](https://stackoverflow.com/questions/924916/is-there-a-way-to-make-a-div-unselectable) |
 | `.display-inline-2` | Simply applies [`display:inline-block;`](), and [`width:50%;`]() to the element in question |
 | `.display-inline-3` | Simply applies [`display:inline-block;`](), and [`width:33.3%;`]() to the element in question |
