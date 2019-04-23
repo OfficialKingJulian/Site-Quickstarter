@@ -1,6 +1,6 @@
 ﻿# Website Quickstarter
 
-An extremely simple resource, designed to quickly lay out a [basic file structure](#filestructure) and some 'almost-every-website-needs-this' set of [HTML snippets](#htmlsnippets), [CSS classes](#cssclasses), [JavaScript functions](#jsfuncs).
+An extremely simple resource, designed to quickly lay out a [basic file structure](#filestructure) and some 'almost-every-website-needs-this' set of [HTML snippets](#htmlsnippets), [CSS classes](#cssclasses), JavaScript functions.
 
 It is designed to be; 
 
@@ -67,14 +67,6 @@ This segment explains a few CSS classes I use in almost every project.
 
 <br>
 
-<a name="jsfuncs"></a>
-## JavaScript Functions
-
-I really only use one JavaScript function in every project, and that is simply `.classList=`. It's all you need! 
-
-`function menuToggle(){var mobMenu = document.getElementsByTagName = "nav"; mobMenu.classList = "showclass";}`
-
-<br>
 
 
 ## License
