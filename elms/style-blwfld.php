@@ -10,7 +10,27 @@
             - Footer styles
 
         */
-
+        .noselect {
+          -webkit-touch-callout: none;
+            -webkit-user-select: none;
+             -khtml-user-select: none;
+               -moz-user-select: none;
+                -ms-user-select: none;
+                    user-select: none;
+        }
+        .display-inline {
+            display: inline-block;
+            position: relative;
+        }
+        .display-inline-2 {
+            width: 50%; 
+        }
+        .display-inline-3 {
+            width: 33.3%; 
+        }
+        .display-inline-4 {
+            width: 25%; 
+        }
         footer {
             /* example */
         }
