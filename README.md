@@ -2,17 +2,6 @@
 
 An extremely simple resource, designed to quickly lay out a [basic file structure](#filestructure) and some 'almost-every-website-needs-this' set of [HTML snippets](#htmlsnippets), [CSS classes](#cssclasses), JavaScript functions.
 
-It is designed to be; 
-
- - Very simplistic
- - Fast loading 
- - Great for SEO
- - Easy to build upon
-
-Please feel free to use if you want, but this is a resource designed for myself first and foremost. 
-
-If you want to see what can be done with this template, get in contact with me [by email](mailto:hi@julians.email).
-
 <br>
 
 
@@ -64,11 +53,3 @@ This segment explains a few CSS classes I use in almost every project.
 | `.display-inline-2` | Simply applies [`display:inline-block;`](), and [`width:50%;`]() to the element in question |
 | `.display-inline-3` | Simply applies [`display:inline-block;`](), and [`width:33.3%;`]() to the element in question |
 | `.display-inline-4` | Simply applies [`display:inline-block;`](), and [`width:25%;`]() to the element in question |
-
-<br>
-
-
-
-## License
-
-Anyone can use this, it's under the [MIT license](https://tldrlegal.com/license/mit-license).
