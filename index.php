@@ -5,12 +5,12 @@
 
     // add the relevant file
         $meta .= "/elms/meta.php";
-        $scriptabv .= "/elms/script-abvfld.php";
-        $styleabv .= "/elms/style-abvfld.php";
-        $nav .= "/elms/nav.php";
-        $foot .= "/elms/foot.php";
-        $styleblw .= "/elms/style-blwfld.php";
-        $scriptblw .= "/elms/script-blwfld.php";
+        $scriptabv .= "/elms/script-abvfld.js";
+        $styleabv .= "/elms/style-abvfld.css";
+        $nav .= "/elms/nav.html";
+        $foot .= "/elms/foot.html";
+        $styleblw .= "/elms/style-blwfld.css";
+        $scriptblw .= "/elms/script-blwfld.js";
 
 ?>
 <!DOCTYPE html>
@@ -35,10 +35,14 @@
         <?php include_once($meta); ?>
 
 <!-- script; above the fold -->
-        <?php include_once($scriptabv); ?>
+        <script type="text/javascript">
+            <?php include_once($scriptabv); ?>
+        </script>
 
 <!-- style; above the fold -->
-        <?php include_once($styleabv); ?>
+        <style>
+            <?php include_once($styleabv); ?>
+        </style>
 
     </head>
 
@@ -81,10 +85,14 @@
     </body>
 
 <!-- style; below the fold -->
-    <?php include_once($styleblw); ?>
+    <style>
+        <?php include_once($styleblw); ?>
+    </style>
 
 <!-- script; below the fold -->
-    <?php include_once($scriptblw); ?>
+    <script type="text/javascript">
+        <?php include_once($scriptblw); ?>
+    </script>
 
 
 </html>
