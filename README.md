@@ -15,12 +15,12 @@ This is  a short list of the files that make up the project, and their functions
 |  --   |   --  |   --      |
 | index.php | Page Template | A template file to show how the files come together to form the document |
 | meta.php | Generic Metadata | Contains basic meta tags, to be used globally |
-| script-abvfld.php | Head JavaScript Content | Any JavaScript that should be, or needs to be executed in the head, e.g. Google Analytics |
-| style-abvfld.php | Above The Fold (in the Head) CSS | Above the fold CSS content, e.g. Navigation Bar, Hero Content, etc.  |
-| nav.php | Top of Page Navigation | HTML layout for a top navigation bar |
-| footer.php | Bottom of the Page Content | HTML layout for the bottom of the page |
-| style-blwfld.php | Below The Fold CSS | Any CSS that does not need to be critically loaded; anything not in the initial viewport |
-| script-blwfld.php | JavaScript Content | Any JavaScript that doesn't need to be critically loaded in the head |
+| script-abvfld.js | Head JavaScript Content | Any JavaScript that should be, or needs to be executed in the head, e.g. Google Analytics |
+| style-abvfld.css | Above The Fold (in the Head) CSS | Above the fold CSS content, e.g. Navigation Bar, Hero Content, etc.  |
+| nav.html | Top of Page Navigation | HTML layout for a top navigation bar |
+| foot.html | Bottom of the Page Content | HTML layout for the bottom of the page |
+| style-blwfld.css | Below The Fold CSS | Any CSS that does not need to be critically loaded; anything not in the initial viewport |
+| script-blwfld.js | JavaScript Content | Any JavaScript that doesn't need to be critically loaded in the head |
 
 These are all included with the PHP code `include`, but it is used with their absolute path, like so;
 
