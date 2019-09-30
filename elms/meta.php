@@ -20,3 +20,6 @@
             <meta name="twitter:image" content="">
             <meta name="twitter:site" content="">
             <meta name="twitter:creator" content="">
+
+<!--This is a PHP file, not Hack-->
+<?php ?>
